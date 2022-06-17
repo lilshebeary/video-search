@@ -10,7 +10,7 @@ const App = () => {
 
 
   useEffect(() => {
-      setSelectedVideo(response.data.items[0]);
+      setSelectedVideo(videos[0]);
   }, [videos])
  
  
